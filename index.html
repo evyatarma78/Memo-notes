@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOTE APP</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div>
+      <label for="noteTxt"> TEXT:</label>
+      <textarea id="noteTxt"></textarea>
+      <label for="noteTime"> TIME:</label>
+      <input type="time" id="noteTime" />
+      <label for="noteDate"> DATE:</label>
+      <input type="DATE" id="noteDate" />
+      <button
+        id="addNote">ADD NOTE</button>
+    </div>
+<input style="margin-bottom: 15px ;" type="text" placeholder="SEARCH NOTE" id="search_value">
+    <div id="note_board"></div>
+    <script src="./note.js"></script>
+    <script src="./source.js"></script>
+  </body>
+</html>
